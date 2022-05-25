@@ -1,0 +1,98 @@
+body {
+    background-color: #EEEEEE;
+    text-align: center;
+}
+.steps {
+    list-style-type: decimal;
+    text-align: justify;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+h1, ul, ol, .heading, .ingredients-footing, .description {
+    text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 40px;
+}
+h1 {
+    background-color: hsla(250, 50%, 50%, 0.8);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 20px;
+    border-width: 5px;
+}
+
+h1, img, div.steps-square, div.ingredients-square, div.description-square {
+    border-color: black;
+    border-style: solid;
+}
+img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+.description {
+    font-size: 20px;
+}
+ul, ol {
+    list-style-type: none;
+    font-size: 20px;
+}
+li {
+    padding: 5px;
+}
+
+a:visited {
+    color: black;
+}
+
+.heading {
+    font-size: 30px;
+}
+.introduction {
+    text-align: center;
+}
+.ingredients-footing {
+    font-size: 20px;
+}
+.steps-square, .ingredients-square, .description-square {
+    display: block;
+    background-color: hsla(90, 50%, 50%, 0.9);
+    margin-left: 23%;
+    margin-right: 23%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    max-width: 900px;
+}
+.description-square {
+    margin-right: 0%;
+    margin-left: 0%;
+    max-width: 1500px;
+    padding-bottom: 20px;
+}
+
+.heading.steps, .heading.ingredients, .heading.head-description {
+    padding-top: 0px;
+    text-decoration-line: underline;
+}
+ol.steps {
+    padding-bottom: 28px;
+    margin-right: 3%;
+}
+
+.steps strong, .heading.steps, .heading.ingredients, .heading.head-description, .description strong {
+    color: hsla(250, 70%, 30%, 1.0);
+}
+.align-div {
+    display: flex;
+    justify-content: center;
+}
+ul {
+    padding-left: 80px;
+    padding-right: 80px;
+}
